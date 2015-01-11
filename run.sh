@@ -1,0 +1,1 @@
+nohup sh /home/pi/live-camera/push.sh -P /home/pi/live-camera/log/push.pid >> /home/pi/live-camera/log/push.log 2>&1 &
