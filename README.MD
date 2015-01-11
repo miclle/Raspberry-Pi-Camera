@@ -3,7 +3,7 @@
 ## Auto start push
 
 ```
-sudo vim rc.local
+sudo vim /etc/rc.local
 
 #Start push stream to remote server
 printf "Start push stream to remote serve......."
