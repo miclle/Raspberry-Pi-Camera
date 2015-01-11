@@ -11,3 +11,6 @@ while true; do
 done
 
 ##nohup sh run.sh -P run.pid >> run.log 2>&1 &
+
+## rtmp://ws1.src.rtmp.pili.qiniu.com/livestream/o7hghf8k
+## rtmp://pili-in.qiniu.com/livestream/o7hghf8k
