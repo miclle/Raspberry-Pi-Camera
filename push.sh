@@ -14,3 +14,6 @@ done
 
 ## rtmp://ws1.src.rtmp.pili.qiniu.com/livestream/o7hghf8k
 ## rtmp://pili-in.qiniu.com/livestream/o7hghf8k
+
+
+### ffmpeg -re -i thinking-in-go.mp4 -acodec copy -vcodec copy -f flv "rtmp://pili-in.qiniu.com/livestream/okf7k64o?nonce=1419432914005&token=r_3ppzBV0go-II63mVTTmXeVhH4="
