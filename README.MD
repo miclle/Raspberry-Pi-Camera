@@ -7,7 +7,7 @@ sudo vim /etc/rc.local
 
 #Start push stream to remote server
 printf "Start push stream to remote serve......."
-sh /home/pi/live-camera/push.sh
+sh /home/pi/live-camera/run.sh
 ```
 
 ### Must reboot
