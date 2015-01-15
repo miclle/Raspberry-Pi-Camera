@@ -28,3 +28,10 @@ sh push.sh
 ```
 sh stop.sh
 ```
+
+```
+ssh pi@192.168.200.72
+```
+
+# Articles
+http://www.slickstreamer.info/2013/06/use-raspberrypi-csi-camera-module-to.html
