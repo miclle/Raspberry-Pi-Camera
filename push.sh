@@ -5,7 +5,7 @@ killall raspivid
 
 while true; do
   # raspivid -t 99999999 -w 960 -h 540 -fps 25 -b 500000 -o - | /usr/local/bin/ffmpeg -i - -vcodec copy -an -f flv rtmp://pili-in.qiniu.com/livestream/o7hghf8k?key=c0ab7734-2c29-4b76-b982-0fda3f242337
-  raspivid -t 99999999 -w 960 -h 540 -fps 25 -b 500000 -o - | /usr/local/bin/ffmpeg -i - -vcodec copy -an -f flv rtmp://115.231.182.9/livestream/o7hghf8k
+  raspivid -t 99999999 -w 960 -h 540 -fps 25 -b 500000 -o - | /usr/local/bin/ffmpeg -re -i - -vcodec copy -an -f flv rtmp://115.231.182.9/livestream/o7hghf8k
 done
 
 ##nohup sh run.sh -P run.pid >> run.log 2>&1 &
